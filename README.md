@@ -14,7 +14,7 @@ To use the code, download the script into the folder with your excels shees for 
 
 ## Prerequisites
 
-Ensure Matlab is operational on your device. 
+Ensure Matlab is operational on your device. This code was generated to work with MATLAB 2022b.
 
 ## Installation
 
