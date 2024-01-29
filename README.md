@@ -9,12 +9,13 @@ This code is used to generate simulated microtubule images with EB1 tip tracking
 MATLAB by Mathworks
 
 ## Getting Started
+To get started, download this Github repository as a zipped file by downloading it from the "code" dropdown menu, unzip the file locally, and save it in an accessible location.  
 
-To use the code, download the script into the folder with your excels shees for proteinBindingAndRemovals and protofilamentLengths that were output from your dynamic EB1 simulation. Of note, each sheet of these files will be a different simulation run; this script will generate videos for all of the sheets if you adjust the parameters for the initial i for loop to include all sheets. Next, if desired, you can adjust the associated pixel size (in the ImageSimControllerFunc or ImageSimControllerFuncEvL depending on which modality you are using). By default, the pixel size is 64 nm which is consisent with our 100X objective on our TIRF microscope. The output will be an avi movie with the simulated movies that can be used for downstream analysis. 
+To use the code, move the repository files into the folder with your excels sheets for proteinBindingAndRemovals and protofilamentLengths that were output from your dynamic EB1 simulation. Of note, each sheet of these files will be a different simulation run; this script will generate videos for all of the sheets if you adjust the parameters for the initial i for loop to include all sheets. Next, if desired, you can adjust the associated pixel size (in the ImageSimControllerFunc or ImageSimControllerFuncEvL depending on which modality you are using). By default, the pixel size is 64 nm which is consisent with our 100X objective on our TIRF microscope. The output will be an avi movie with the simulated movies that can be used for downstream analysis. 
 
 ## Prerequisites
 
-Ensure Matlab is operational on your device. This code was generated to work with MATLAB 2022b.
+Ensure Matlab is operational on your device. This code was generated to work with MATLAB 2022b. It should work with newer versions of Matlab. 
 
 ## Installation
 
